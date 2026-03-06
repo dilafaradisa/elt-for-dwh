@@ -1,6 +1,6 @@
 # ELT Pipeline Orhcestration
 
-This project was created as part of the assignment from Pacmann.ai. In this project, I act as a data engineer and responsible for building an ELT pipeline for a Brazilian e-commerce business, Olist. In this scenario, Olist wants to build a Data Warehouse to support its growing business and more complex data. For the full story, you can visit my article on Medium. In this repository, I will focus on developing the ELT pipeline.
+This project was created as part of the assignment from Pacmann.ai. In this project, I act as a data engineer and responsible for building an ELT pipeline for a Brazilian e-commerce business, Olist. In this scenario, Olist wants to build a Data Warehouse to support its growing business and more complex data. For the full story, you can visit my article on [Medium](https://medium.com/@faradisa2605/implementing-slowly-changing-dimensions-in-elt-pipeline-for-olist-data-warehouse-4004772e5406). In this repository, I will focus on developing the ELT pipeline.
 
 ## 1. Requirements
 - OS :
