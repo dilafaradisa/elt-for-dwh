@@ -1,5 +1,11 @@
 venv/
+olist_project/
 creds/
 .env
 **/__pycache__/
 **/.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.db
+*.sqlite
+*.sqlite3

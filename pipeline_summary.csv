@@ -1,0 +1,4 @@
+timestamp,task,status,execution_time
+2026-03-06 00:04:57.628561,ExtractData,Success,3.166999101638794
+2026-03-06 00:15:08.346018,TransformData,Success,593.0491490364075
+2026-03-06 00:05:15.276522,LoadData,Success,17.639150142669678

@@ -2,7 +2,7 @@ version: '3'
 
 services:
   sources:
-    image: postgres:latest
+    image: postgres:15
     container_name: olist-sources
     restart: always
     environment:
@@ -16,7 +16,7 @@ services:
       - source-volume:/var/lib/postgresql/data
 
   dwh:
-    image: postgres:latest
+    image: postgres:15
     container_name: olist-dwh
     restart: always
     environment:

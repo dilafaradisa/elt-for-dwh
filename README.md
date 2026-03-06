@@ -33,3 +33,4 @@ docker-compose up -d
 ```
 
 This will start the project and all its dependencies defined in the `docker-compose.yml` file.
+

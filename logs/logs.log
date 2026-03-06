@@ -1,0 +1,220 @@
+2026-03-06 00:04:25,725 - INFO - ----------Starting data extraction process----------
+2026-03-06 00:04:25,725 - INFO - starting to extract data from table public.customers.
+2026-03-06 00:04:25,983 - ERROR - Error extracting data from table public.customers: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,036 - INFO - starting to extract data from table public.sellers.
+2026-03-06 00:04:26,040 - ERROR - Error extracting data from table public.sellers: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,042 - INFO - starting to extract data from table public.products.
+2026-03-06 00:04:26,046 - ERROR - Error extracting data from table public.products: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,047 - INFO - starting to extract data from table public.product_category_name_translation.
+2026-03-06 00:04:26,051 - ERROR - Error extracting data from table public.product_category_name_translation: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,052 - INFO - starting to extract data from table public.orders.
+2026-03-06 00:04:26,056 - ERROR - Error extracting data from table public.orders: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,058 - INFO - starting to extract data from table public.order_items.
+2026-03-06 00:04:26,063 - ERROR - Error extracting data from table public.order_items: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,093 - INFO - starting to extract data from table public.order_payments.
+2026-03-06 00:04:26,096 - ERROR - Error extracting data from table public.order_payments: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,098 - INFO - starting to extract data from table public.order_reviews.
+2026-03-06 00:04:26,100 - ERROR - Error extracting data from table public.order_reviews: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,101 - INFO - starting to extract data from table public.geolocation.
+2026-03-06 00:04:26,104 - ERROR - Error extracting data from table public.geolocation: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 00:04:26,106 - INFO - Data extraction process completed in 0.38 seconds.
+2026-03-06 00:04:26,113 - INFO - ----------Data extraction process finished----------
+2026-03-06 00:04:26,113 - INFO - [pid 34829] Worker Worker(salt=3602627167, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=34829) done      ExtractData()
+2026-03-06 00:04:26,113 - DEBUG - 1 running tasks, waiting for next task to finish
+2026-03-06 00:04:26,115 - INFO - Informed scheduler that task   ExtractData__99914b932b   has status   DONE
+2026-03-06 00:04:26,115 - DEBUG - Asking scheduler for work...
+2026-03-06 00:04:26,117 - DEBUG - Pending tasks: 2
+2026-03-06 00:04:26,117 - INFO - [pid 34829] Worker Worker(salt=3602627167, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=34829) running   LoadData()
+2026-03-06 00:04:26,117 - ERROR - [pid 34829] Worker Worker(salt=3602627167, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=34829) failed    LoadData()
+Traceback (most recent call last):
+  File "/Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/olist_project/lib/python3.9/site-packages/luigi/worker.py", line 195, in run
+    raise RuntimeError('Unfulfilled %s at run time: %s' % (deps, ', '.join(missing)))
+RuntimeError: Unfulfilled dependency at run time: ExtractData__99914b932b (/Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/customers.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/sellers.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/products.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/product_category_name_translation.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/orders.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/order_items.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/order_payments.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/order_reviews.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/geolocation.csv)
+2026-03-06 00:04:26,124 - DEBUG - 1 running tasks, waiting for next task to finish
+2026-03-06 00:04:26,134 - INFO - Informed scheduler that task   LoadData__99914b932b   has status   FAILED
+2026-03-06 00:04:26,134 - DEBUG - Checking if LoadData() is complete
+2026-03-06 00:04:26,135 - DEBUG - Checking if ExtractData() is complete
+2026-03-06 00:04:26,137 - INFO - Informed scheduler that task   LoadData__99914b932b   has status   PENDING
+2026-03-06 00:04:26,140 - INFO - Informed scheduler that task   ExtractData__99914b932b   has status   PENDING
+2026-03-06 00:04:26,140 - DEBUG - Asking scheduler for work...
+2026-03-06 00:04:26,143 - DEBUG - Pending tasks: 2
+2026-03-06 00:04:26,144 - INFO - [pid 34829] Worker Worker(salt=3602627167, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=34829) running   LoadData()
+2026-03-06 00:04:26,144 - ERROR - [pid 34829] Worker Worker(salt=3602627167, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=34829) failed    LoadData()
+Traceback (most recent call last):
+  File "/Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/olist_project/lib/python3.9/site-packages/luigi/worker.py", line 195, in run
+    raise RuntimeError('Unfulfilled %s at run time: %s' % (deps, ', '.join(missing)))
+RuntimeError: Unfulfilled dependency at run time: ExtractData__99914b932b (/Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/customers.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/sellers.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/products.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/product_category_name_translation.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/orders.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/order_items.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/order_payments.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/order_reviews.csv, /Users/dilafaradisa/Documents/disa/05_pacmann/03_into_to_devops/storage/dataset-olist/pipeline/temp/data/geolocation.csv)
+2026-03-06 00:04:26,151 - DEBUG - 1 running tasks, waiting for next task to finish
+2026-03-06 00:04:26,157 - INFO - Informed scheduler that task   LoadData__99914b932b   has status   FAILED
+2026-03-06 00:04:26,157 - DEBUG - Asking scheduler for work...
+2026-03-06 00:04:26,160 - DEBUG - Done
+2026-03-06 00:04:26,160 - DEBUG - There are no more tasks to run at this time
+2026-03-06 00:04:26,160 - DEBUG - There are 2 pending tasks possibly being run by other workers
+2026-03-06 00:04:26,160 - DEBUG - There are 2 pending tasks unique to this worker
+2026-03-06 00:04:26,161 - DEBUG - There are 2 pending tasks last scheduled by this worker
+2026-03-06 00:04:26,161 - INFO - Worker Worker(salt=3602627167, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=34829) was stopped. Shutting down Keep-Alive thread
+2026-03-06 00:04:26,164 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 3 tasks of which:
+* 1 ran successfully:
+    - 1 ExtractData()
+* 1 failed:
+    - 1 LoadData()
+* 1 were left pending, among these:
+    * 1 had failed dependencies:
+        - 1 TransformData()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2026-03-06 00:04:54,461 - INFO - ----------Starting data extraction process----------
+2026-03-06 00:04:54,461 - INFO - starting to extract data from table public.customers.
+2026-03-06 00:04:54,936 - INFO - Data extracted successfully from table public.customers.
+2026-03-06 00:04:54,936 - INFO - starting to extract data from table public.sellers.
+2026-03-06 00:04:54,960 - INFO - Data extracted successfully from table public.sellers.
+2026-03-06 00:04:54,960 - INFO - starting to extract data from table public.products.
+2026-03-06 00:04:55,151 - INFO - Data extracted successfully from table public.products.
+2026-03-06 00:04:55,151 - INFO - starting to extract data from table public.product_category_name_translation.
+2026-03-06 00:04:55,159 - INFO - Data extracted successfully from table public.product_category_name_translation.
+2026-03-06 00:04:55,159 - INFO - starting to extract data from table public.orders.
+2026-03-06 00:04:56,017 - INFO - Data extracted successfully from table public.orders.
+2026-03-06 00:04:56,018 - INFO - starting to extract data from table public.order_items.
+2026-03-06 00:04:56,707 - INFO - Data extracted successfully from table public.order_items.
+2026-03-06 00:04:56,707 - INFO - starting to extract data from table public.order_payments.
+2026-03-06 00:04:57,072 - INFO - Data extracted successfully from table public.order_payments.
+2026-03-06 00:04:57,072 - INFO - starting to extract data from table public.order_reviews.
+2026-03-06 00:04:57,531 - INFO - Data extracted successfully from table public.order_reviews.
+2026-03-06 00:04:57,531 - INFO - starting to extract data from table public.geolocation.
+2026-03-06 00:04:57,628 - INFO - Data extracted successfully from table public.geolocation.
+2026-03-06 00:04:57,628 - INFO - Data extraction process completed in 3.17 seconds.
+2026-03-06 00:04:57,631 - INFO - ----------Data extraction process finished----------
+2026-03-06 00:04:57,632 - INFO - [pid 35033] Worker Worker(salt=1957184309, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=35033) done      ExtractData()
+2026-03-06 00:04:57,632 - DEBUG - 1 running tasks, waiting for next task to finish
+2026-03-06 00:04:57,635 - INFO - Informed scheduler that task   ExtractData__99914b932b   has status   DONE
+2026-03-06 00:04:57,635 - DEBUG - Asking scheduler for work...
+2026-03-06 00:04:57,636 - DEBUG - Pending tasks: 2
+2026-03-06 00:04:57,636 - INFO - [pid 35033] Worker Worker(salt=1957184309, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=35033) running   LoadData()
+2026-03-06 00:04:57,637 - INFO - Connected to DWH database successfully.
+2026-03-06 00:04:57,637 - INFO - ----------Start loading data to src schema----------
+2026-03-06 00:04:57,637 - INFO - starting to load data into table public.customers...
+2026-03-06 00:04:59,398 - INFO - Data loaded successfully into table public.customers.
+2026-03-06 00:04:59,398 - INFO - starting to load data into table public.sellers...
+2026-03-06 00:04:59,806 - INFO - Data loaded successfully into table public.sellers.
+2026-03-06 00:04:59,807 - INFO - starting to load data into table public.products...
+2026-03-06 00:05:00,828 - INFO - Data loaded successfully into table public.products.
+2026-03-06 00:05:00,828 - INFO - starting to load data into table public.product_category_name_translation...
+2026-03-06 00:05:00,851 - INFO - Data loaded successfully into table public.product_category_name_translation.
+2026-03-06 00:05:00,851 - INFO - starting to load data into table public.orders...
+2026-03-06 00:05:03,569 - INFO - Data loaded successfully into table public.orders.
+2026-03-06 00:05:03,570 - INFO - starting to load data into table public.order_items...
+2026-03-06 00:05:06,371 - INFO - Data loaded successfully into table public.order_items.
+2026-03-06 00:05:06,371 - INFO - starting to load data into table public.order_payments...
+2026-03-06 00:05:08,212 - INFO - Data loaded successfully into table public.order_payments.
+2026-03-06 00:05:08,213 - INFO - starting to load data into table public.order_reviews...
+2026-03-06 00:05:10,285 - INFO - Data loaded successfully into table public.order_reviews.
+2026-03-06 00:05:10,286 - INFO - starting to load data into table public.geolocation...
+2026-03-06 00:05:10,636 - INFO - Data loaded successfully into table public.geolocation.
+2026-03-06 00:05:10,636 - INFO - ----------Data loading to src schema completed successfully----------
+2026-03-06 00:05:11,682 - INFO - Data loaded successfully into staging schema for table stg-customers
+2026-03-06 00:05:11,744 - INFO - Data loaded successfully into staging schema for table stg-geolocation
+2026-03-06 00:05:12,741 - INFO - Data loaded successfully into staging schema for table stg-order_items
+2026-03-06 00:05:13,456 - INFO - Data loaded successfully into staging schema for table stg-order_payments
+2026-03-06 00:05:14,194 - INFO - Data loaded successfully into staging schema for table stg-order_reviews
+2026-03-06 00:05:14,956 - INFO - Data loaded successfully into staging schema for table stg-orders
+2026-03-06 00:05:14,962 - INFO - Data loaded successfully into staging schema for table stg-product_category_name_translation
+2026-03-06 00:05:15,257 - INFO - Data loaded successfully into staging schema for table stg-products
+2026-03-06 00:05:15,276 - INFO - Data loaded successfully into staging schema for table stg-sellers
+2026-03-06 00:05:15,276 - INFO - Data loading process completed in 17.64 seconds.
+2026-03-06 00:05:15,287 - INFO - [pid 35033] Worker Worker(salt=1957184309, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=35033) done      LoadData()
+2026-03-06 00:05:15,288 - DEBUG - 1 running tasks, waiting for next task to finish
+2026-03-06 00:05:15,290 - INFO - Informed scheduler that task   LoadData__99914b932b   has status   DONE
+2026-03-06 00:05:15,290 - DEBUG - Asking scheduler for work...
+2026-03-06 00:05:15,292 - DEBUG - Pending tasks: 1
+2026-03-06 00:05:15,292 - INFO - [pid 35033] Worker Worker(salt=1957184309, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=35033) running   TransformData()
+2026-03-06 00:05:15,295 - INFO - SQL queries for transformation loaded successfully.
+2026-03-06 00:05:15,296 - INFO - Connected to DWH database successfully.
+2026-03-06 00:05:15,296 - INFO - ----------Start transforming data from staging to final schema----------
+2026-03-06 00:05:15,576 - INFO - Query 1 executed successfully...
+2026-03-06 00:05:15,698 - INFO - Query 2 executed successfully...
+2026-03-06 00:05:15,710 - INFO - Query 3 executed successfully...
+2026-03-06 00:05:22,733 - INFO - Query 4 executed successfully...
+2026-03-06 00:05:24,419 - INFO - Query 5 executed successfully...
+2026-03-06 00:05:26,902 - INFO - Query 6 executed successfully...
+2026-03-06 00:15:08,342 - INFO - Query 7 executed successfully...
+2026-03-06 00:15:08,345 - INFO - ----------Data transformation from staging to final schema completed successfully----------
+2026-03-06 00:15:08,399 - INFO - [pid 35033] Worker Worker(salt=1957184309, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=35033) done      TransformData()
+2026-03-06 00:15:08,401 - DEBUG - 1 running tasks, waiting for next task to finish
+2026-03-06 00:15:08,411 - INFO - Informed scheduler that task   TransformData__99914b932b   has status   DONE
+2026-03-06 00:15:08,411 - DEBUG - Asking scheduler for work...
+2026-03-06 00:15:08,414 - DEBUG - Done
+2026-03-06 00:15:08,414 - DEBUG - There are no more tasks to run at this time
+2026-03-06 00:15:08,414 - INFO - Worker Worker(salt=1957184309, workers=1, host=dilafaradisas-MacBook.local, username=dilafaradisa, pid=35033) was stopped. Shutting down Keep-Alive thread
+2026-03-06 00:15:08,437 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 3 tasks of which:
+* 3 ran successfully:
+    - 1 ExtractData()
+    - 1 LoadData()
+    - 1 TransformData()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
