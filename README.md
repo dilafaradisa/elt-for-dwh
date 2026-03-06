@@ -108,11 +108,11 @@ This project was created as part of the assignment from Pacmann.ai. In this proj
   - [ExtractData](pipeline/extract.py)
     
     The ExtractData task is used to extract data from the source database and save it temporarily. The outputs of this task are CSV files for each table, a task summary such as        the task status and execution time, and a log file.
-  - LoadData
+  - [LoadData](pipeline/load.py)
  
     This LoadData task is used to load the CSV files extracted from the previous task into the target database in the source schema (src). Then, the data is loaded from the            src schema into the staging schema. The outputs of this task are a task summary and a log file.
 
-  - TransformData
+  - [TransformData](pipeline/transform.py)
 
     Finally, there is the TransformData, in this task, data is pulled from staging schema and transformed according to the design that was defined erlier, then loaded into the         final schema. The outputs of this task are a task summary and a log file
     
@@ -123,5 +123,10 @@ This project was created as part of the assignment from Pacmann.ai. In this proj
   - evaluate the outputs, logs, and summaries
 
     here are few example of the log file and the task summary
+    - logs
+      ![log file](img/olist-dwh-logs.jpeg)
+
+    - task summary
+      ![task summary](img/olist-dwh-task-summary.jpeg)
     
   
